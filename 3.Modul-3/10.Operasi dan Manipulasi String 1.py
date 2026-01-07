@@ -3,7 +3,7 @@
 # 1. Menyambung String (concatenate)
 nama_pertama = "Ucup"
 nama_tengah = "D"
-nama_akhir = "Fame"
+nama_akhir = "Luffy"
 
 nama_lengkap = nama_pertama + nama_tengah + nama_akhir
 print(nama_lengkap)

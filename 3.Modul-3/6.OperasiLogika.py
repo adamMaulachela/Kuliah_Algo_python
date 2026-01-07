@@ -4,65 +4,65 @@
 
 # NOT
 print("====NOT====")
-a = False
-c = not a
+a = False # tipe data : boolean
+c = not a # True
 print("data a =", a)
 print("-------------- NOT")
-print("data c =", c)
+print("data c =", c) # TRUE
 
 # OR (jika salah satu true, maka hasilnya adalah true)
 print("====OR====")
 a = False
 b = False
-c = a or b
-print(a, "OR", b, "=", c)
+c = a or b # false
+print(a, "OR", b, "=", c) # False
 a = False
 b = True
-c = a or b
-print(a, "OR", b, " =", c)
+c = a or b # True
+print(a, "OR", b, " =", c)  # Tr
 a = True
 b = False
-c = a or b
-print(a, " OR", b, "=", c)
+c = a or b # true
+print(a, " OR", b, "=", c) # true
 a = True
 b = True
-c = a or b
-print(a, " OR", b, " =", c)
+c = a or b # True
+print(a, " OR", b, " =", c) # True
 
 # AND (jika dua buah nilai true, maka hasil true)
 print("====AND====")
 a = False
 b = False
-c = a and b
+c = a and b # False
 print(a, "AND", b, "=", c)
 a = False
 b = True
-c = a and b
+c = a and b # false
 print(a, "AND", b, " =", c)
 a = True
 b = False
-c = a and b
+c = a and b # false
 print(a, " AND", b, "=", c)
 a = True
 b = True
-c = a and b
+c = a and b # true
 print(a, " AND", b, " =", c)
 
 # XOR (akan true jika salah satu true, sisanya false)
 print("====XOR====")
 a = False
 b = False
-c = a ^ b
+c = a ^ b # false
 print(a, "XOR", b, "=", c)
 a = False
-b = True
-c = a ^ b
+b = True 
+c = a ^ b # true
 print(a, "XOR", b, " =", c)
 a = True
 b = False
-c = a ^ b
+c = a ^ b # true
 print(a, " XOR", b, "=", c)
 a = True
 b = True
-c = a ^ b
+c = a ^ b # false
 print(a, " XOR", b, " =", c)

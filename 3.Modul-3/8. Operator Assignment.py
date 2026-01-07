@@ -4,23 +4,23 @@
 a = 5  # adalah assignment
 print("nilai a =", a)
 
-a += 1  # artinya adalah a = a + 1
+a += 1  # artinya adalah a = 5 + 1
 print("nilai a += 1, nilai a menjadi", a)
 
-a -= 2  # artinya adalah a = a - 2
+a -= 2  # artinya adalah a = 6 - 2
 print("nilai a -= 2, nilai a menjadi", a)
 
-a *= 5  # artinya adalah a = a * 5
+a *= 5  # artinya adalah a = 4 * 5
 print("nilai a *= 5, nilai a menjadi", a)
 
-a /= 2  # artinya adalah a = a / 2
+a /= 2  # artinya adalah a = 20 / 2
 print("nilai a /= 2, nilai a menjadi", a)
 
 b = 10
 print("\nnilai b =", b)
 
 # modulus dan floor division
-b %= 3
+b %= 3 # b = 10 % 3 = 
 print("nilai b %= 3, nilai b menjadi", b)
 
 b = 10

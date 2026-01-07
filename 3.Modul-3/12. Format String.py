@@ -2,7 +2,7 @@
 
 # contoh generic
 # string
-nama = "ucup"
+nama = "Luffy"
 format_str = f"hello {nama}"
 print(format_str)
 

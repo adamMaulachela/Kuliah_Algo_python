@@ -8,7 +8,7 @@ inputUser = float(
     input("masukan angka yang bernilai\nkurang dari 3 \natau \nlebih besar dari 10\n:")
 )
 
-# ++++++3-----------------
+# ++++++3----------------- 
 # Memeriksa angka kurang dari 3
 isKurangDari = inputUser < 3
 print("Kurang dari 3 =", isKurangDari)
